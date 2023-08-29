@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration | Samarth Ramdas Vidyalaya</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=REM:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Magra&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="SRV.css">
+</head>
+<body>
+    <div id="maintitle">
+        <h3 class="titletext1">Cenka Samaj Kalyan Sanstha's</h3>
+        <h1 class="titletext2">SAMARTH RAMDAS VIDYALAYA</h1>
+    </div>
+    <div class="line"></div>
+    <h1 class="register">Registration</h1>
+    <div class="line"></div>
+    <form class="registrationform" action="">
+        <h3 class="registerheading">Personal Information</h3>
+        <div class="registrationbox">
+            <div class="registeritem">Full Name            : <input type="text"></div>
+            <div class="registeritem">Date of Birth      : <input type="date"></div>
+            <div class="registeritem">Gender                      : Male<input type="radio" name="gender"> Female<input type="radio" name="gender"> Other<input type="radio" name="gender"></div>
+            <div class="registeritem">Nationality           : <input type="text"></div>
+            <div class="registeritem"><label for="category">Category             : </label><select name="selectcategory" id="selectcategoryid">
+                    <option disabled selected value="">Select an option</option>
+                    <option value="">General</option>
+                    <option value="">OBC-NCL</option>
+                    <option value="">SC</option>
+                    <option value="">ST</option>
+                    <option value="">General(PwD)</option>
+                    <option value="">OBC-NCL(PwD)</option>
+                    <option value="">SC(PwD)</option>
+                    <option value="">ST(PwD)</option>
+                </select>
+            </div>
+            <div class="registeritem">Caste                         : <input type="text"></div>
+            <div class="registeritem">Religion               : <input type="text"></div>
+            <div class="registeritem">Mobile Number  : <input type="number"></div>
+            <div class="registeritem">E-mail ID (optional) : <input type="email"></div>
+            <div class="registeritem">Aadhaar Number : <input type="number"></div>
+            <div class="registeritem">PAN (optional)   : <input type="text"></div>
+        </div>
+        <h3 class="registerheading">Parental Information</h3>
+        <div class="registrationbox">
+            <div class="registeritem">Father's Name    : <input type="text"></div>
+            <div class="registeritem">Father's Occupation   : <input type="text"></div>
+            <div class="registeritem">Father's Mobile No.   : <input type="number"></div>
+            <div class="registeritem">Mother's Name  : <input type="text"></div>
+            <div class="registeritem">Mother's Occupation : <input type="text"></div>
+            <div class="registeritem">Mother's Mobile No. : <input type="number"></div>
+            <div class="registeritem">Father's Income : <input type="number"></div>
+            <div class="registeritem">Mother's Income       : <input type="number"></div>
+        </div>
+        <h3 class="registerheading">Residential Information</h3>
+        <div class="registrationbox">
+            <div class="registeritemresident">Permanent Address : <br><textarea name="" id="" cols="30" rows="10"></textarea></div>
+            <div class="registeritemresident">Current Address : <br><textarea name="" id="" cols="30" rows="10"></textarea></div>   
+        </div>
+        <div class="submit">
+            <input type="submit" value="Submit Application" id="submitnow">
+            <input type="reset" value="Reset Application" id="resetnow">
+        </div>
+    </form>
+</body>
+</html>
