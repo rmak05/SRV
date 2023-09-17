@@ -74,7 +74,7 @@ footer{
 }
 .noname{
     border: 4px solid red;
-    background-color: rgb(153, 79, 222);
+    background-color: rgb(75 4 142);
     border-radius: 20px;
 }
 #admissons{
@@ -163,12 +163,13 @@ top: 60px;
 }
 .register{
     text-align: center;
-    color: turquoise;
-    border: 4px solid red;
-    border-radius: 10px;
+    color: purple;
+    text-decoration: underline;
+    /* border: 4px solid red;
+    border-radius: 10px; */
     width: 200px;
     margin: auto;
-    background-color: rgb(153, 79, 222);
+    /* background-color: rgb(153, 79, 222); */
     padding: 5px;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -216,7 +217,7 @@ top: 60px;
     text-align: center;
     padding: 3px;
     font-family: 'Roboto Slab', serif;
-    background-color: rgb(153, 79, 222);
+    background-color: rgb(75 4 142);
     border-radius: 20px;
     color: peachpuff;
 }
@@ -240,7 +241,7 @@ top: 60px;
     text-align: center;
     padding: 3px;
     font-family: 'Roboto Slab', serif;
-    background-color: rgb(153, 79, 222);
+    background-color: rgb(75 4 142);
     border-radius: 20px;
     color: peachpuff;
 }
